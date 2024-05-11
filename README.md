@@ -86,10 +86,7 @@ Tools:
 ![image](https://github.com/mahmoudsmartco/CSV-Processing/assets/138441771/280d5dbe-82b6-4415-9157-b3c0e8050e8e)
 
 
-Demo 
 
 
-
-https://github.com/mahmoudsmartco/CSV-Processing/assets/138441771/33f5f0c3-b872-4eca-9ed7-9a33eb1a1e97
 
 

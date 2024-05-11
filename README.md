@@ -1,8 +1,11 @@
 CSV Processing REST API described as the below functionality:
+
 1-	Request to enter the CSV files paths over secure channel like SFTP. 
+
 2-	Transfer files in a secure way
     •	Transfer the CSV files over a secure protocol like SFTP to local path on Central Processing Engine.
     •	Handle files from different locations by configuring multiple file paths.
+    
 3-	Read and Parse CSV Files
     •	Use a Java library like Apache Commons CSV to efficiently read and parse the CSV files.
     •	Parse each line of the CSV files to extract National ID, Name, and Amount fields.

@@ -1,0 +1,22 @@
+2024-05-11T18:52:49,545 [http-nio-8080-exec-6] INFO  com.evision.csv.controller.CSVController - REST API request to process CSV files started 
+2024-05-11T18:52:49,546 [http-nio-8080-exec-6] INFO  com.evision.csv.services.CSVService - Downloading Process Started
+2024-05-11T18:52:56,574 [http-nio-8080-exec-6] INFO  com.evision.csv.services.CSVService - Downloading Process finished
+2024-05-11T18:52:56,575 [http-nio-8080-exec-6] INFO  com.evision.csv.services.CSVService - The count of downloaded files is : 15
+2024-05-11T18:52:56,577 [pool-4-thread-1] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\empty.csv contains [0] rows
+2024-05-11T18:52:56,578 [pool-4-thread-1] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\empty.csv is empty file.
+2024-05-11T18:52:56,596 [pool-4-thread-9] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\file1 - copy (6).csv contains [0] rows
+2024-05-11T18:52:56,598 [pool-4-thread-10] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\file1 - copy (7).csv contains [0] rows
+2024-05-11T18:52:56,600 [pool-4-thread-7] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\file1 - copy (4).csv contains [0] rows
+2024-05-11T18:52:56,605 [pool-4-thread-8] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\file1 - copy (5).csv contains [0] rows
+2024-05-11T18:52:56,606 [pool-4-thread-5] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\file1 - copy (2).csv contains [0] rows
+2024-05-11T18:52:56,607 [pool-4-thread-1] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\file1 - copy (8).csv contains [0] rows
+2024-05-11T18:52:56,607 [pool-4-thread-4] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\file1 - copy (12).csv contains [0] rows
+2024-05-11T18:52:56,608 [pool-4-thread-2] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\file1 - copy (10).csv contains [0] rows
+2024-05-11T18:52:56,612 [pool-4-thread-3] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\file1 - copy (11).csv contains [0] rows
+2024-05-11T18:52:56,612 [pool-4-thread-6] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\file1 - copy (3).csv contains [0] rows
+2024-05-11T18:55:17,992 [pool-4-thread-3] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\file1 - copy (9).csv contains [0] rows
+2024-05-11T18:55:18,341 [pool-4-thread-4] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\file1 - copy.csv contains [0] rows
+2024-05-11T18:55:18,605 [pool-4-thread-8] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\file1.csv contains [0] rows
+2024-05-11T18:55:19,729 [pool-4-thread-7] INFO  com.evision.csv.services.CSVService - file:  d:\task\input\worngdata.csv contains [0] rows
+2024-05-11T18:55:19,729 [pool-4-thread-7] ERROR com.evision.csv.services.CSVService - For input string: "text"
+2024-05-11T18:56:10,562 [http-nio-8080-exec-6] INFO  com.evision.csv.controller.CSVController - REST API request to process CSV files finished

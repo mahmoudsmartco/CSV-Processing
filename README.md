@@ -33,6 +33,46 @@ CSV Processing REST API described as the below functionality:
     •	Store the processed data into separate file based on the processing logic.
     
     •	Prepare log file for error handling and logging to track any issues during processing.
+
+Tools: 
+1- KAFKA 
+2- Xlight FTP Server for creating SFTP on windows  link: "https://www.xlightftpd.com/download/setup-x64.exe"
+3- WinSCP to test SFTP server and upload download CSV files.
+4- POSTMAN to call REST API with the below:
+    URL : ""
+    RequestBody : "[
+        {
+            "serverIp":"192.168.1.8" ,
+            "serverPort":"22",
+            "serverUser":"mm22",
+            "serverPass":"mm22",
+            "directoryPath":"/location1/"
+        },
+        {
+            "serverIp":"192.168.1.8" ,
+            "serverPort":"22",
+            "serverUser":"mm22",
+            "serverPass":"mm22",
+            "directoryPath":"/location2/"
+        },
+        {
+            "serverIp":"192.168.1.8" ,
+            "serverPort":"22",
+            "serverUser":"mm22",
+            "serverPass":"mm22",
+            "directoryPath":"/location3/"
+        },
+        {
+            "serverIp":"192.168.1.8" ,
+            "serverPort":"22",
+            "serverUser":"mm22",
+            "serverPass":"mm22",
+            "directoryPath":"/location4/"
+        }
+
+    
+]
+"
     
 
 ![image](https://github.com/mahmoudsmartco/CSV-Processing/assets/138441771/280d5dbe-82b6-4415-9157-b3c0e8050e8e)
